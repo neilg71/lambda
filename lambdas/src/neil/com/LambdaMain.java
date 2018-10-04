@@ -26,7 +26,7 @@ public class LambdaMain {
 	}
 
 	public static void main(String[] args) {
-		Runnable runnable = ()-> System.out.println("running something here");
+		Runnable runnable = ()-> System.out.println("running something");
 		
 		runnable.run();
 		
